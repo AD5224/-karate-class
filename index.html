@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Millennium Karate Class</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://wallpapercave.com/wp/wp7336185.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background: rgba(0, 0, 0, 0.85);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            color: #fff;
+            border: 3px solid #d32f2f;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h1 {
+            color: #ffcc00;
+            font-size: 3em;
+            text-transform: uppercase;
+            text-shadow: 3px 3px 12px rgba(255, 204, 0, 0.9);
+            animation: pulse 1.5s infinite alternate;
+        }
+
+        @keyframes pulse {
+            from { transform: scale(1); }
+            to { transform: scale(1.05); }
+        }
+
+        .hero img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(255, 204, 0, 0.6);
+        }
+
+        p {
+            font-size: 1.3em;
+            margin: 15px 0;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: #ffcc00;
+        }
+
+        .cta {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            background: #ffcc00;
+            color: #000;
+            text-decoration: none;
+            font-size: 1.5em;
+            border-radius: 30px;
+            transition: 0.3s ease-in-out;
+            box-shadow: 0 5px 10px rgba(255, 204, 0, 0.8);
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .cta:hover {
+            background: #d4a600;
+            transform: scale(1.1);
+        }
+
+        .section {
+            margin-top: 40px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .contact {
+            margin-top: 30px;
+            font-size: 1.2em;
+            border-top: 2px solid #ffcc00;
+            padding-top: 20px;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 1em;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Master the Art of Karate!</h1>
+        <div class="hero">
+            <img src="https://stillmed.olympic.org/media/Images/OlympicOrg/News/2017/04/07/2017-04-07-karate-thumbnail.jpg" alt="Karate Training">
+        </div>
+
+        <p>Unleash your potential with <span class="highlight">expert-led karate training</span> at Little Millennium School, Katraj, Pune.</p>
+        <p>Our classes focus on <span class="highlight">self-defense, discipline, and confidence</span>.</p>
+
+        <div class="section">
+            <h2>Why Join Our Karate Classes?</h2>
+            <p>🥋 Learn from **Certified Instructors**</p>
+            <p>🔥 Build **Strength, Flexibility, and Endurance**</p>
+            <p>🛡️ Master **Self-Defense & Combat Techniques**</p>
+            <p>🏆 Participate in **Competitions & Belt Exams**</p>
+        </div>
+
+        <div class="section">
+            <h2>Class Schedule</h2>
+            <p>📅 Monday - Friday: 7:00 PM - 8:00 PM</p>
+        </div>
+
+        <div class="section">
+            <h2>Meet Your Instructor</h2>
+            <p>👊 Sensei Shivraj Sir, Aditi Mam and Vaishnavi Mam – Black Belt </p>
+            <p>✅ 3+ Years of Teaching Experience</p>
+            <p>🏅 State & National Tournament Participant</p>
+        </div>
+
+        <a href="#contact" class="cta">Join Now</a>
+
+        <div class="contact" id="contact">
+            <h2>Contact Us</h2>
+            <p>📍 Location: Little Millennium School, Katraj kondhawa road, Katraj, Pune - 411046</p>
+            <p>📞 Phone: +91 7219004548</p>
+            <p>📧 Email: lionskarate@gmail.com</p>
+        </div>
+
+        <div class="footer">
+            <p>© 2025 Little Millennium Karate Class. All Rights Reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
